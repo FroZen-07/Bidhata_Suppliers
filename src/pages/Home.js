@@ -4,6 +4,9 @@ import DarkVariantExample from '../components/Carousel'
 import HeroSection from '../components/AboutUs'
 import Products from '../components/Products'
 import Services from '../components/Services'
+import GetInTouch from '../components/GetInTouch'
+import Footer from '../components/Footer'
+import OurPartners from '../components/OurPartners'
 
 
 const Home = () => {
@@ -14,6 +17,9 @@ const Home = () => {
         <HeroSection/>
         <Products/>
         <Services/>
+        <OurPartners/>
+        <GetInTouch/>
+        <Footer/>
     </>
   )
 }

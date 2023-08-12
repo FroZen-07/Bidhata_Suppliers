@@ -1,50 +1,56 @@
-import React from 'react';
+import React from 'react'
+import CollapsibleExample from '../components/Navbar'
 import { Card } from 'react-bootstrap';
-import './Products.css'; 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
-const Products = () => {
+const ProductsPage = () => {
   return (
-    <div className='mb-5' id='products'>
-      <h2 className="hero-heading custom-text">Products we offer</h2>
-      <div className="px-5 py-3">
-        <Row>
+    <>
+        <CollapsibleExample/>
+        <div className='mb-5'>
+      <h2 className="hero-heading custom-text pt-3">Products</h2>
+      <div className="px-5">
+        <Row className='py-2'>
             <Col>
                 <Card className="product-card">
-                    <Link to="/products" style={{textDecoration: 'none'}}>
+                   
                     <Card.Img variant="top" src="https://picsum.photos/200" />
                     <Card.Body>
                         <Card.Text className='hero-heading2 custom-text'>Product 1</Card.Text>
                     </Card.Body>
-                    </Link>
+                    
                 </Card>
             </Col>
             <Col>
                 <Card className="product-card">
-                <Link to="/products" style={{textDecoration: 'none'}}>
+                
                     <Card.Img variant="top" src="https://picsum.photos/200" />
                     <Card.Body>
                         <Card.Text className='hero-heading2 custom-text'>Product 2</Card.Text>
                     </Card.Body>
-                    </Link>
+                    
                 </Card>
             </Col>
             <Col>
                 <Card className="product-card">
-                <Link to="/products" style={{textDecoration: 'none'}}>
+                
                     <Card.Img variant="top" src="https://picsum.photos/200" />
                     <Card.Body>
                         <Card.Text className='hero-heading2 custom-text'>Product 3</Card.Text>
                     </Card.Body>
-                    </Link>
+                    
                 </Card>
             </Col>
         </Row>
+        
+        
       </div>
     </div>
-  );
-};
+    <Footer/>
+    </>
+  )
+}
 
-export default Products;
+export default ProductsPage
