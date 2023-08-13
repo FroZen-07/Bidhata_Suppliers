@@ -1,53 +1,47 @@
 import React from 'react'
 import CollapsibleExample from '../components/Navbar'
-import { Card } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Container ,Image} from 'react-bootstrap';
 import Footer from '../components/Footer';
 
 const ProductsPage = () => {
   return (
     <>
         <CollapsibleExample/>
-        <div className='mb-5'>
-      <h2 className="hero-heading custom-text pt-3">Products</h2>
-      <div className="px-5">
-        <Row className='py-2'>
-            <Col>
-                <Card className="product-card">
-                   
-                    <Card.Img variant="top" src="https://picsum.photos/200" />
-                    <Card.Body>
-                        <Card.Text className='hero-heading2 custom-text'>Product 1</Card.Text>
-                    </Card.Body>
-                    
-                </Card>
-            </Col>
-            <Col>
-                <Card className="product-card">
-                
-                    <Card.Img variant="top" src="https://picsum.photos/200" />
-                    <Card.Body>
-                        <Card.Text className='hero-heading2 custom-text'>Product 2</Card.Text>
-                    </Card.Body>
-                    
-                </Card>
-            </Col>
-            <Col>
-                <Card className="product-card">
-                
-                    <Card.Img variant="top" src="https://picsum.photos/200" />
-                    <Card.Body>
-                        <Card.Text className='hero-heading2 custom-text'>Product 3</Card.Text>
-                    </Card.Body>
-                    
-                </Card>
-            </Col>
-        </Row>
-        
-        
-      </div>
-    </div>
+        <Container>
+        <h2 className="hero-heading custom-text pt-3">Products</h2>
+            <Row className='py-2'>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+            </Row>
+
+            <Row className='py-2'>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image src='https://picsum.photos/200' thumbnail className='d-block mx-auto'/>
+                <h6 className='pt-2 text-center'>Product 1</h6>
+                </Col>
+            </Row>
+        </Container>
+   
     <Footer/>
     </>
   )

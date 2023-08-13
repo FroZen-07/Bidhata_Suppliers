@@ -8,21 +8,21 @@ const GetInTouch = () => {
       <h2 className='hero-heading custom-text'>Get in Touch</h2>
       <div className="px-5 py-3">
         <Row>
-            <Col>
+            <Col xs={12} md={4}>
             <div className="contact-info text-center">
             <FaMapMarkerAlt className="contact-icon custom-text " size={70}/>
             <h4 className='pt-3'>Location</h4>
             <p>Your Address Here</p>
           </div>
             </Col>
-            <Col>
+            <Col xs={12} md={4}>
             <div className="contact-info text-center">
             <FaPhone className="contact-icon custom-text" size={70}/>
             <h4 className='pt-3'>Contact</h4>
             <p>Phone: +123456789</p>
           </div>
             </Col>
-            <Col>
+            <Col xs={12} md={4}>
           <div className="contact-info text-center">
             <FaEnvelope className="contact-icon custom-text " size={70}/>
             <h4 className='pt-3'>Email</h4>
