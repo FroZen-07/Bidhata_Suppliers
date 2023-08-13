@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const OurPartners = ({ logos }) => {
   return (
@@ -9,23 +9,23 @@ const OurPartners = ({ logos }) => {
         <Row>
             <Col>
             <div className="contact-info text-center">
-            <img src='https://picsum.photos/200'/>
+            <Image src='https://picsum.photos/200'/>
           </div>
             </Col>
             <Col>
             <div className="contact-info text-center">
-            <img src='https://picsum.photos/200'/>
+            <Image src='https://picsum.photos/200'/>
            
           </div>
             </Col>
             <Col>
           <div className="contact-info text-center">
-          <img src='https://picsum.photos/200'/>
+          <Image src='https://picsum.photos/200'/>
           </div>
         </Col>
         <Col>
           <div className="contact-info text-center">
-          <img src='https://picsum.photos/200'/>
+          <Image src='https://picsum.photos/200'/>
           </div>
         </Col>
         </Row>
