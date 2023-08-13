@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Bidhata_Suppliers/static/css/main.1d20b48f.css",
-    "main.js": "/Bidhata_Suppliers/static/js/main.27247432.js",
-    "index.html": "/Bidhata_Suppliers/index.html",
-    "main.1d20b48f.css.map": "/Bidhata_Suppliers/static/css/main.1d20b48f.css.map",
-    "main.27247432.js.map": "/Bidhata_Suppliers/static/js/main.27247432.js.map"
+    "main.css": "/bidhata-suppliers/static/css/main.1d20b48f.css",
+    "main.js": "/bidhata-suppliers/static/js/main.0808fd3a.js",
+    "index.html": "/bidhata-suppliers/index.html",
+    "main.1d20b48f.css.map": "/bidhata-suppliers/static/css/main.1d20b48f.css.map",
+    "main.0808fd3a.js.map": "/bidhata-suppliers/static/js/main.0808fd3a.js.map"
   },
   "entrypoints": [
     "static/css/main.1d20b48f.css",
-    "static/js/main.27247432.js"
+    "static/js/main.0808fd3a.js"
   ]
 }
