@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bidhata_Suppliers/static/css/main.1d20b48f.css",
+    "main.js": "/Bidhata_Suppliers/static/js/main.27247432.js",
+    "index.html": "/Bidhata_Suppliers/index.html",
+    "main.1d20b48f.css.map": "/Bidhata_Suppliers/static/css/main.1d20b48f.css.map",
+    "main.27247432.js.map": "/Bidhata_Suppliers/static/js/main.27247432.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d20b48f.css",
+    "static/js/main.27247432.js"
+  ]
+}
